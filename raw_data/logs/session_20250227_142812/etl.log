@@ -1,0 +1,22 @@
+2025-02-27 14:28:12 - ==========================================
+2025-02-27 14:28:12 - ETL Pipeline Session Started
+2025-02-27 14:28:12 - Session Directory: logs/session_20250227_142812
+2025-02-27 14:28:12 - ==========================================
+2025-02-27 14:28:12 - Step 1: Data Ingestion Initiated
+2025-02-27 14:28:12 - ------------------------------------------
+bash: scripts/ingest.sh: No such file or directory
+2025-02-27 14:28:12 - ERROR: Data Ingestion Encountered Issues.
+2025-02-27 14:28:12 - ------------------------------------------
+2025-02-27 14:28:12 - Step 2: Data Transformation Initiated
+2025-02-27 14:28:12 - ------------------------------------------
+bash: scripts/transform.sh: No such file or directory
+2025-02-27 14:28:12 - ERROR: Data Transformation Encountered Issues.
+2025-02-27 14:28:12 - ------------------------------------------
+2025-02-27 14:28:12 - Step 3: Data Upload Initiated
+2025-02-27 14:28:12 - ------------------------------------------
+bash: scripts/upload.sh: No such file or directory
+2025-02-27 14:28:12 - ERROR: Data Upload Encountered Issues.
+2025-02-27 14:28:12 - ------------------------------------------
+2025-02-27 14:28:12 - ==========================================
+2025-02-27 14:28:12 - ETL Pipeline Session Ended
+2025-02-27 14:28:12 - ==========================================
