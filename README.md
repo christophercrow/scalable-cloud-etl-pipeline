@@ -32,27 +32,27 @@ Scalable-Cloud-ETL-Pipeline/ ├── config/ │ └── aws_config.json # A
    ```bash
    git clone https://github.com/christophercrow/scalable-cloud-etl-pipeline.git
    cd scalable-cloud-etl-pipeline
-
+	'''
     Install Dependencies:
 
         AWS CLI: Follow the AWS CLI Installation Guide
 
         jq:
-
+'''
     sudo apt-get update && sudo apt-get install jq -y
-
+'''
     Git: Refer to the Git Installation Guide
 
 Configure AWS CLI:
-
+'''
 aws configure
-
+'''
 Enter your AWS access key, secret key, region, and default output format when prompted.
 
 Configure Project Settings:
 
 Update config/aws_config.json with your credentials and bucket names (do not include the s3:// prefix; the scripts will handle that):
-
+'''
     {
         "aws_access_key_id": "YOUR_AWS_ACCESS_KEY_ID",
         "aws_secret_access_key": "YOUR_AWS_SECRET_ACCESS_KEY",
@@ -60,14 +60,14 @@ Update config/aws_config.json with your credentials and bucket names (do not inc
         "raw_bucket": "scalable-cloud-etl-pipeline",
         "processed_bucket": "scalable-cloud-etl-pipeline-processed"
     }
-
+'''
 Running the ETL Pipeline
 
     Make Scripts Executable:
-
+'''
 chmod +x scripts/*.sh
 chmod +x run_etl.sh
-
+'''
 Execute the Pipeline:
 
 Run the orchestration script:
